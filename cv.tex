@@ -1,0 +1,148 @@
+\documentclass[margin,line]{res}
+
+\usepackage{color}
+\usepackage{etaremune}
+
+\usepackage{hyperref}
+
+\newcommand{\linkToUrl}[1]{\underline{\color{blue} \href{#1}{Link}}}
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+
+\begin{document}
+
+
+\name{Todd Bodnar \vspace*{.1in} \   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  \normalfont \footnotesize Last edited 4/10/2013}
+
+\begin{resume}
+\section{\sc Contact Information}
+\vspace{.05in}
+\begin{tabular}{@{}p{2in}p{4in} }
+     & {\it Voice:}  (\#\#\#) \#\#\#-\#\#\#\#  \\             %email me if you need my phone number
+\   &  {\it E-mail:}  \(^{}\)me\(m\)e@p\(^{}\)su\(_{^*}\)\(^{}\)edu \\         %generic antispam attempt, cool eh?
+\end{tabular}
+
+
+\section{\sc Research Interests}
+Social networks, computational modeling, game theory, data mining
+\ \\
+\section{\sc Degrees}
+{\bf Pennsylvania State University}, State College, Pennsylvania USA\\
+\vspace*{-.1in}
+\begin{list1}
+\item[] PhD, Biology, 2016 (Expected)
+\item[] Advisor: Marcel Salath\'e
+\end{list1}
+{\bf Pennsylvania State University} \\
+\vspace*{-.1in}
+\begin{list1}
+\item[] B.S., Computer Science,  May, 2012 
+\item[] Junior/Senior GPA 3.90
+\item[] Minor in Mathematics
+\end{list1}
+
+\section{\sc Academic \\Related Experience}
+Research with the Salath\'e Group% (September 2010 - Present)
+\begin{list1}
+\item[] PhD advisor
+%\item[] Visualized / Analyzed graphs from Twitter data
+%\item[] Developed behavioral models
+\end{list1}
+Grader for Cmpsc 464 (January 2012 - April 2012)
+\begin{list1}
+\item[] Graded homework for the senior level class: ``Introduction to the Theory of Computation''
+\item[] Topics covered include automata, Turing machines and complexity.
+\end{list1}
+Undergraduate research with Dr. Eric Charles% (April 2010 - August 2010)
+\begin{list1}
+\item[] Penn State psychology department.
+\item[] Developed models for modified prisoner's dilemma games.
+\item[] Developed program for running NetLogo simulations on multiple computers. \linkToUrl{http://bit.ly/12UQ4cq}
+\end{list1}
+%\section{\sc Honors and Awards}
+
+%Braddock Award (Fall 2012)
+
+%Deans List (Fall 2009 - Present)
+
+%\section{\sc Research Experience}
+
+\section{\sc Publications}
+
+\begin{etaremune}[start=3]
+\item \textbf{Todd Bodnar} \& Marcel Salath\'e. \textit{Validating Models for Disease Detection Using Twitter}  WWW 2013 Companion, May 13-17, 2013, Rio de Janeiro, Brazil. (in press) \linkToUrl{http://bit.ly/WWL1Gr}
+
+\item Marcel Salath\'e, Linus Bengtsson, \textbf{Todd J. Bodnar}, Devon D. Brewer, John S. Brownstein, Caroline Buckee, Ellsworth M. Campbell, Ciro Cattuto, Shashank Khandelwal, Patricia L. Mabry,  Alessandro Vespignani. \textit{Digital Epidemiology} Plos Computational Biology, 2012 \linkToUrl{http://bitly.com/PO2fSx}
+
+\item \textbf{Todd Bodnar} \& Marcel Salath\'e. \textit{Governing the Global Commons with Local Institutions}. PloS One, 2012 \linkToUrl{http://bit.ly/TtsZd5}
+\end{etaremune}
+
+%\section{\sc Presented Papers and Posters}
+\section{\sc Presentations}
+\begin{etaremune}[start=3]
+\item Todd Bodnar. \textit{Processing Big-Data for Cheap through Amazon's Elastic Map Reduce} Hacking Science Seminar, 2013 (60 minute talk) 
+\item Todd Bodnar. \textit{Complex Models and Over-fitting}. Bring your own data problems, Hacking Science, 2012 (Short, 5 minute talk)
+\item Todd Bodnar, Orhan Kislal, Ying Sun, Hui Yang,Marcel Salath\'e, Conrad 
+Tucker. \textit{Webs, Clouds and Tweets: Using Social Media to Study the Spatial Dynamics of Influenza}. Center for Integrated Healthcare Delivery Systems, 2012 (Poster)
+\end{etaremune}
+
+\ 
+
+\section{\sc Conferences, Workshops, Summer Schools Attended}
+\begin{etaremune}[start=5]
+\item 2013 June 3-28: Complex Systems Summer School (CSSS) at Santa Fe Institute. (Upcoming)
+\item 2013 May 14:1st International Workshop on Public Health in the Digital Age: Social Media, Crowdsourcing and Participatory Systems (held in conjunction with WWW 2013) (Upcoming)
+\item 2013 May 13-17: 22nd International World Wide Web Conference (WWW 2013). Rio de Janeiro. (Upcoming)
+\item 2012 April 5: 4th Center for Integrated Healthcare Delivery System Workshop. Pennsylvania State University.
+\item 2010 July 2-3: North American Meeting of the International Society for Ecological Psychology. Illinois State University.
+\end{etaremune}
+
+
+\section{\sc Software}
+Crowdbreaks \linkToUrl{http://www.crowdbreaks.com}
+\begin{list1}
+\item[] Online disease surveillance system using social media.
+\item[] Worked on backend, developed system for fast processing of large geospatial data sets.
+\end{list1}
+
+\section{\sc Computer Skills} 
+\begin{list2}
+\item Cluster Computing / Hadoop 
+\item Web based psychological game development on Amazon Mechanical Turk
+\item General software development / programing
+\item \LaTeX
+\end{list2}
+
+%\section{\sc Miscellaneous Information}
+%\begin{list2}
+%\item Native language: English
+%\item Understands some French
+%\item U.S. citizen
+%\end{list2}
+
+
+
+\end{resume}
+\end{document}
+
+
+
+
